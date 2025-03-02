@@ -1,0 +1,35 @@
+# Except .gitignore file
+!.gitignore
+
+# Ignore everything
+*
+
+# Except Terraform files
+!*.tf
+
+# Except Markdown files
+!*.md
+
+# Ignore Terraform state files and backups
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform variable files
+*.tfvars
+
+# Ignore Terraform directories
+.terraform/
+
+# Ignore workspace settings
+*.code-workspace
+
+# Ignore binary files
+*.exe
+
+# Ignore other files
+plan.out
+Summary.txt
+mindmap_eks.mm
